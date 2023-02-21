@@ -5,8 +5,7 @@ CONTEXT_SETTINGS = dict(help_option_names=["-h", "--help"])
 
 @click.group(
     help=f"\n  Run SELSP optimizer by cmd\n",
-    epilog="Try 'python run.py train' to start the default training"
-    ", 'python run.py evaluate' to start evaluationg a optimized model",
+    epilog="Try 'python run.py train' to start the default training",
     context_settings=CONTEXT_SETTINGS,
 )
 @click.pass_context
