@@ -1,0 +1,15 @@
+{
+    "0": {
+        "type" : "scheduling",
+        "scheduling_period": 2520,
+        "production_unit" : {
+            "type" : "production",
+            "id" : "0"
+        },
+        "obs": {
+            "env": ["ACTION","LAST_ACTION","DAYS"],
+            "product": ["ALL_ORDER_PER_DAY","FIT_ORDER_PER_DAY","NOT_FIT_ORDER","INVENTORY","DECAY", "CSL_P", "UNIT_PRICE_P"]
+        },
+        "reward": "REWARD_1"
+    }
+}

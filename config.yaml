@@ -1,0 +1,58 @@
+ssa:
+    train:
+        random_seed: 7
+        cpu_num: 20
+        total_steps: int(2.1e6)
+        n_steps: 200
+        n_epochs: 50
+        lr: 0.001
+        gamma: 0.96
+    evaluate:
+        random_seed: 32
+        cpu_num: 20
+        eval_times: 100
+    env3:
+      env_type: 2
+      env_series: 0
+      env_id: 3
+    env4:
+      env_type: 2
+      env_series: 0
+      env_id: 4
+    env5:
+      env_type: 2
+      env_series: 0
+      env_id: 5
+    env6:
+      env_type: 2
+      env_series: 0
+      env_id: 6
+mlp:
+    train:
+        random_seed: 7
+        cpu_num: 20
+        total_steps: int(2.1e7)
+        n_steps: 200
+        n_epochs: 50
+        lr: 0.0015
+        gamma: 0.96
+    evaluate:
+        random_seed: 32
+        cpu_num: 20
+        eval_times: 100
+    env3:
+      env_type: ''
+      env_series: 0
+      env_id: 3
+    env4:
+      env_type: ''
+      env_series: 0
+      env_id: 4
+    env5:
+      env_type: ''
+      env_series: 0
+      env_id: 5
+    env6:
+      env_type: ''
+      env_series: 0
+      env_id: 6
