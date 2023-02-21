@@ -1,0 +1,33 @@
+{
+    "0": {
+        "type": "serial",
+        "list": [
+            {"type": "product","m_id": 0},
+            {"type": "product","m_id": 1}
+        ]
+    },
+    "1": {
+        "type": "serial",
+        "list": [
+            {"type": "storage","m_id": 0},
+            {"type": "process_line","m_id": 0},
+            {"type": "storage","m_id": 1}
+        ]
+    },
+    "2": {
+        "type": "parallel",
+        "list": [
+            {"type": "process_line","m_id": 1},
+            {"type": "customer","m_id": 0}
+        ]
+    },
+    "3": {
+        "type": "serial",
+        "list": [
+            {"type": "schedule","m_id": 0},
+            {"type": "process_line","m_id": 2},
+            {"type": "sale","m_id": 0},
+            {"type": "schedule","m_id": 0}
+        ]
+    }
+}

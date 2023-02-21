@@ -1,0 +1,75 @@
+{
+    "0": null,
+    "1": {
+        "0": {
+            "type": "material",
+            "incomplete_operation": ["0"],
+            "launch_cost": [4.6],
+            "conversion_id": "1",
+            "conversion_prepare_cost": [26],
+            "conversion_cost_per_day": [3.4],
+            "failure_cost_per_time": [17.8]
+        },
+        "1": {
+            "type": "material",
+            "incomplete_operation": ["1"],
+            "conversion_prepare_cost": [10.7],
+            "conversion_rate": ["n", [4.06], [0.025], true],
+            "conversion_id": "2"
+        },
+        "2": {
+            "type": "product",
+            "storage_unit_id": ["1"],
+            "price_per_unit": 150,
+            "backlog_penalty_cost_per_unit_per_day": 0.25
+        }
+    },
+    "2": {
+        "0": {
+            "type": "material",
+            "incomplete_operation": ["0"],
+            "launch_cost": [5.2],
+            "conversion_id": "1",
+            "conversion_prepare_cost": [26.9],
+            "conversion_cost_per_day": [3.2],
+            "failure_cost_per_time": [14.6]
+        },
+        "1": {
+            "type": "material",
+            "incomplete_operation": ["1"],
+            "conversion_prepare_cost": [11],
+            "conversion_rate": ["n", [4.5], [0.025], true],
+            "conversion_id": "2"
+        },
+        "2": {
+            "type": "product",
+            "storage_unit_id": ["1"],
+            "price_per_unit": 95,
+            "backlog_penalty_cost_per_unit_per_day": 0.1
+        }
+    },
+    "3": {
+        "0": {
+            "type": "material",
+            "incomplete_operation": ["0"],
+            "launch_cost": [5.1],
+            "conversion_id": "1",
+            "conversion_prepare_cost": [33.7],
+            "conversion_cost_per_day": [3.6],
+            "failure_cost_per_time": [15.7]
+        },
+        "1": {
+            "type": "material",
+            "incomplete_operation": ["1"],
+            "conversion_prepare_cost": [14.2],
+            "conversion_rate": ["n", [2.76], [0.025], true],
+            "conversion_id": "2"
+        },
+        "2": {
+            "type": "product",
+            "storage_unit_id": ["1"],
+            "price_per_unit": 100,
+            "backlog_penalty_cost_per_unit_per_day": 0.1
+        }
+    }
+}

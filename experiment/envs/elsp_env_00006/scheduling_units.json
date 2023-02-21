@@ -1,0 +1,15 @@
+{
+    "0": {
+        "type" : "scheduling",
+        "scheduling_period": 2520,
+        "production_unit" : {
+            "type" : "production",
+            "id" : "0"
+        },
+        "obs": {
+            "env": ["ACTION"],
+            "product": ["INVENTORY_MINUS_NOT_FIT_ORDER"]
+        },
+        "reward": "REWARD_1"
+    }
+}

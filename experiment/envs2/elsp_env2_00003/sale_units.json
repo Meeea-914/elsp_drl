@@ -1,0 +1,8 @@
+{
+    "0": {
+        "type":"sale",
+        "price_per_unit": "up_to_product",
+        "backlog_penalty_cost_per_unit_per_day": "up_to_product",
+        "backlog_decay_per_half_year": 0.5
+    }
+}

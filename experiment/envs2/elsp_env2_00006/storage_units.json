@@ -1,0 +1,12 @@
+{
+    "0": {
+        "type": "material",
+        "infinite": true
+    },
+    "1": {
+        "type": "product",
+        "quality_guarantee_period": 720,
+        "inventory_hold_cost_per_unit_per_unit_date": 0.01,
+        "wastage_rate_per_unit": 5
+    }
+}

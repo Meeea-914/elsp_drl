@@ -1,0 +1,42 @@
+{
+    "0": {
+        "type": "continuous",
+        "consume_material": false,
+        "setup": {
+            "type": "changeover",
+            "setup_expiry": [30],
+            "changeover_time": [10],
+            "changeover_cost": [35],
+            "turnaround_time": [4],
+            "turnaround_cost": [0]
+        },
+        "launch": {
+            "type": "launch",
+            "launch_time": [10],
+            "launch_cost": "up_to_product"
+        },
+        "failure": {
+            "type": "failure",
+            "failure_rate": [0, 0.001],
+            "failure_cost_per_time": "up_to_product"
+        },
+        "conversion": {
+            "type": "conversion",
+            "conversion_prepare_cost": "up_to_product",
+            "conversion_rate_per_day": [1],
+            "conversion_cost_per_day": "up_to_product",
+            "conversion_period": [60],
+            "produce_delay": [10]
+        }
+    },
+    "1": {
+        "type": "batch",
+        "consume_material": true,
+        "conversion": {
+            "type": "conversion",
+            "conversion_prepare_cost": "up_to_product",
+            "conversion_rate": "up_to_product",
+            "conversion_period": [2]
+        }
+    }
+}
