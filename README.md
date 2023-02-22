@@ -1,10 +1,23 @@
 # elsp_drl
+Implementation of the IEEE TASE paper [Stochastic Economic Lot Scheduling via Self-Attention based Deep Reinforcement Learning](). *IEEE Transactions on Automation Science and Engineering*, 2023.
 
+```
+@ARTICLE{
+author={Song, Wen and Mi, Nan and Li, Qiqiang and Zhuang, Jing and Cao, Zhiguang},
+journal={IEEE Transactions on Automation Science and Engineering},
+title={Stochastic Economic Lot Scheduling via Self-Attention based Deep Reinforcement Learning},
+year={2023},
+volume={},
+number={},
+pages={1-12},
+doi={10.1109/TASE.2023.3248229}
+}
+```
 ## Get Started
 
 ### Installation on Linux
 ```
-git clone https://github.com/*/elsp_drl.git & cd elsp_drl
+git clone https://github.com/Meeea-914/elsp_drl.git & cd elsp_drl
 python3 -m venv venv
 source venv/bin/activate
 ```
